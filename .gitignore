@@ -11,6 +11,9 @@
 # production
 /build
 
+# movies
+/movies
+
 # misc
 .DS_Store
 .env.local

@@ -1,58 +1,108 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import Header from "./layouts/header";
-import Footer from "./layouts/footer";
-import moviesData from "./data/movies.json";
-import NontonPage from "./pages/NontonPage";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "./App.css";
+import Login from "./components/Login";
+import AdminPage from "./pages/AdminPage";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import AddFilm from "./pages/AddFilm";
+import FilmComponent from "./pages/FilmComponent";
 import VideoPlayerPage from "./pages/VideoPlayerPage";
-import LoginPage from "./pages/LoginUsers";
-import { Outlet } from "react-router-dom";
+import BlogPage from "./pages/BlogPage";
+import ContactPage from "./pages/ContactPage";
 
-function App() {
+
+// CSS Custom Templaete
+import "./components/css/bootstrap.min.css";
+import "./components/css/font-awesome.min.css";
+import "./components/css/elegant-icons.css";
+import "./components/css/plyr.css";
+import "./components/css/nice-select.css";
+import "./components/css/owl.carousel.min.css";
+import "./components/css/slicknav.min.css";
+import "./components/css/style.css";
+
+const App = () => {
+  const [isLoggedIn, setLoggedIn] = useState(false);
+  const [isLoading, setLoading] = useState(true);
+  const [showLoader, setShowLoader] = useState(true); // State untuk mengontrol apakah loader ditampilkan atau tidak
+
+  useEffect(() => {
+    const loggedInStatus = localStorage.getItem("isLoggedIn");
+    if (loggedInStatus === "true") {
+      setLoggedIn(true);
+    }
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
+  useEffect(() => {
+    if (isLoading) {
+      setShowLoader(true);
+    }
+  }, [isLoading]);
+
+  const handleLogin = () => {
+    setLoggedIn(true);
+    localStorage.setItem("isLoggedIn", "true");
+
+    setTimeout(() => {
+      setLoggedIn(false);
+      localStorage.setItem("isLoggedIn", "false");
+    }, 5 * 60 * 60 * 1000);
+  };
+
+  const handleLogout = () => {
+    setLoggedIn(false);
+    localStorage.setItem("isLoggedIn", "false");
+  };
+
+  useEffect(() => {
+    if (!isLoading) {
+      setShowLoader(false);
+    }
+  }, [isLoading]);
+
+  if (showLoader) {
+    return (
+      <div id="preloader">
+        <div className="loader"></div>
+      </div>
+    );
+  }
+
   return (
     <Router>
-      <div className="App">
-      <Outlet disableBackForRoute={true} />
-        <Header />
-        <Routes>
-          <Route path="/" element={<FeaturedFilms />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/nonton/:slug" element={<NontonPage />} />
-          <Route path="/Video/:slug/:video" element={<VideoPlayerPage />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Navbar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/:slug" element={<FilmComponent />} />
+        <Route path="/:slug/:video" element={<VideoPlayerPage />} />
+        <Route
+          path="/login"
+          element={
+            isLoggedIn ? (
+              <Navigate to="/admin" />
+            ) : (
+              <Login handleLogin={handleLogin} />
+            )
+          }
+        />
+        <Route
+          path="/admin"
+          element={isLoggedIn ? <AdminPage /> : <Navigate to="/login" />}
+        />
+        <Route path="/admin/add" element={<AddFilm />} />
+      </Routes>
+      <Footer />
     </Router>
   );
-}
-
-function FeaturedFilms() {
-  return (
-    <section className="featured-films">
-      <div className="container">
-        <h2>Film Pilihan</h2>
-        <div className="row">
-          {moviesData.map((movie, index) => (
-            <div className="col-md-4" key={index}>
-              <div className="card">
-                <img
-                  src={movie.image_url}
-                  className="card-img-top"
-                  alt={movie.title}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">{movie.title}</h5>
-                  <Link to={`/nonton/${movie.slug}`} className="btn btn-primary">
-                    Tonton Sekarang
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
+};
 
 export default App;

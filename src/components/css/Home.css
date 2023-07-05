@@ -1,0 +1,167 @@
+.rapi {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    /* max-height: 100%; */
+    height: 100%;
+}
+
+.venz {
+    padding-top: 32px;
+    /* background-color: rgb(45, 43, 43); */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 92rem;
+    width: 100rem;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.venz ul li {
+    padding-bottom: 5px;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    margin-bottom: 11px;
+    margin: 0px 3px;
+    list-style: none;
+    position: relative;
+    overflow: inherit;
+    height: 340px;
+    width: 280px;
+    box-sizing: border-box;
+}
+
+.venz ul li .thumb a:hover h2.jdlflm {
+    height: 65px;
+    transition: .3s linear
+}
+
+.venz ul li .thumb a:hover .overlay {
+    opacity: 1
+}
+
+.venz ul li .thumb img:hover {
+    opacity: .4
+}
+
+.venz ul li .thumb img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.0);
+    height: 280px
+}
+
+.venz ul li .thumb a {
+    text-decoration: none
+}
+
+.venz ul li .thumb {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto
+}
+
+.detpost {
+    margin: 0px 4px
+}
+
+.epz {
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.63);
+    color: #fff;
+    padding: 4px;
+    font-size: 14px;
+    height: 28px;
+    width: 93px
+}
+
+.epz span {
+    font-size: 14px;
+}
+
+.epztipe {
+    position: absolute;
+    z-index: 1;
+    background: rgba(24, 53, 245, 0.69);
+    color: #fff;
+    padding: 4px;
+    font-size: 12px;
+    height: 23px;
+    right: 0px;
+    transform: translate(0, 300%);
+    border-radius: 4px 0 0 4px
+}
+
+.epztipe2 {
+    position: absolute;
+    z-index: 1;
+    background: rgba(24, 53, 245, 0.69);
+    color: #fff;
+    padding: 4px;
+    font-size: 15px;
+    height: 23px;
+    right: 0px;
+    transform: translate(0, 300%);
+    border-radius: 4px 0 0 4px
+}
+
+.venz ul li .thumb a {
+    text-decoration: none
+}
+
+.venz ul li .thumb {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto
+}
+
+.venz ul li .thumb img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.0);
+    height: 280px
+}
+
+.venz ul li .thumb img:hover {
+    opacity: .4
+}
+
+.venz ul li .thumb a:hover .overlay {
+    opacity: 1
+}
+
+.thumbz {
+    background: #222;
+    width: 100%;
+    height: 280px
+}
+
+h2.jdlflm {
+    color: #fff;
+    bottom: 0px;
+    background: rgba(17, 17, 17, 0.63);
+    width: 100%;
+    font-weight: 500;
+    padding: 3px 5px;
+    font-size: 13px;
+    line-height: 20px;
+    position: absolute;
+    height: 25px;
+    transition: .3s linear;
+    text-align: center
+}
+
+h2.jdlflm a {
+    color: #fff
+}
+
+.thumb a:hover h2.jdlflm {
+    height: 65px;
+    transition: .3s linear
+}

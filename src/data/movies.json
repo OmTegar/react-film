@@ -1,29 +1,273 @@
 [
   {
-    "title": "Eiyuu,Bu wo Kiwameru Tame",
-    "slug": "eiyuu,bu-wo-kiwameru-tame",
-    "image_url": "img/eiyuu,bu-wo-kiwameru-tame.png",
+    "title": "Eiyuu,BuwoKiwameruTame",
+    "slug": "eiyuu,buwokiwamerutame",
+    "image_url": "img/eiyuu,buwokiwamerutame.png",
     "files": [
-      "Otakudesu.net_Eiyuuou--01_720p.mp4",
-      "Otakudesu.net_Eiyuuou--02_720p.mp4",
-      "Otakudesu.net_Eiyuuou--03_720p.mp4",
-      "Otakudesu.net_Eiyuuou--04_720p.mp4",
-      "Otakudesu.net_Eiyuuou--05_720p.mp4",
-      "Otakudesu.net_Eiyuuou--06_720p.mp4",
-      "Otakudesu.net_Eiyuuou--07_720p.mp4",
-      "Otakudesu.net_Eiyuuou--08_720p.mp4",
-      "Otakudesu.net_Eiyuuou--09_720p.mp4",
-      "Otakudesu.net_Eiyuuou--10_720p.mp4",
-      "Otakudesu.net_Eiyuuou--11_720p.mp4",
-      "Otakudesu.net_Eiyuuou--12_End_720p.mp4"
-    ]
+      "Eiyuuou--01_720p.mp4",
+      "Eiyuuou--02_720p.mp4",
+      "Eiyuuou--03_720p.mp4",
+      "Eiyuuou--04_720p.mp4",
+      "Eiyuuou--05_720p.mp4",
+      "Eiyuuou--06_720p.mp4",
+      "Eiyuuou--07_720p.mp4",
+      "Eiyuuou--08_720p.mp4",
+      "Eiyuuou--09_720p.mp4",
+      "Eiyuuou--10_720p.mp4",
+      "Eiyuuou--11_720p.mp4",
+      "Eiyuuou--12_End_720p.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Fantasy",
+      "Isekai"
+    ],
+    "date_modified": "2023-07-04T09:37:39.166Z"
+  },
+  {
+    "title": "Isekai Meikyuu de Harem wo",
+    "slug": "isekai-meikyuu-de-harem-wo",
+    "image_url": "img/isekai-meikyuu-de-harem-wo.png",
+    "files": [
+      "Alqanime_IseMeiHarem_BD_01_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_02_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_03_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_04_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_05_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_06_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_07_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_08_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_09_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_10_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_11_1080p.mp4",
+      "Alqanime_IseMeiHarem_BD_12_1080p.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Ecchi",
+      "Fantasy",
+      "Harem",
+      "Isekai",
+      "Romance"
+    ],
+    "date_modified": "2023-07-04T17:41:09.421Z"
   },
   {
     "title": "KIMI NO NAWA",
     "slug": "kimi-no-nawa",
     "image_url": "img/kimi-no-nawa.png",
     "files": [
-      "Otakudesu_KimiNaWa_1080p.mp4"
-    ]
+      "KimiNaWa_1080p.mp4"
+    ],
+    "genre": [
+      "Drama",
+      "Supernatural"
+    ],
+    "date_modified": "2023-07-04T09:37:54.027Z"
+  },
+  {
+    "title": "sword art online alicization",
+    "slug": "sword-art-online-alicization",
+    "image_url": "img/sword-art-online-alicization.png",
+    "files": [
+      "Otakudesu_SAO.Alicization--01_720p.mp4",
+      "Otakudesu_SAO.Alicization--02_720p.mp4",
+      "Otakudesu_SAO.Alicization--03_720p.mp4",
+      "Otakudesu_SAO.Alicization--04_720p.mp4",
+      "Otakudesu_SAO.Alicization--05_720p.mp4",
+      "Otakudesu_SAO.Alicization--06_720p.mp4",
+      "Otakudesu_SAO.Alicization--07_720p.mp4",
+      "Otakudesu_SAO.Alicization--08_720p.mp4",
+      "Otakudesu_SAO.Alicization--09_720p.mp4",
+      "Otakudesu_SAO.Alicization--10_720p.mp4",
+      "Otakudesu_SAO.Alicization--11_720p.mp4",
+      "Otakudesu_SAO.Alicization--12_720p.mp4",
+      "Otakudesu_SAO.Alicization--13_720p.mp4",
+      "Otakudesu_SAO.Alicization--14_720p.mp4",
+      "Otakudesu_SAO.Alicization--15_720p.mp4",
+      "Otakudesu_SAO.Alicization--16_720p.mp4",
+      "Otakudesu_SAO.Alicization--17_720p.mp4",
+      "Otakudesu_SAO.Alicization--18_720p.mp4",
+      "Otakudesu_SAO.Alicization--19_720p.mp4",
+      "Otakudesu_SAO.Alicization--20_720p.mp4",
+      "Otakudesu_SAO.Alicization--21_720p.mp4",
+      "Otakudesu_SAO.Alicization--22_720p.mp4",
+      "Otakudesu_SAO.Alicization--23_720p.mp4",
+      "Otakudesu_SAO.Alicization--24_720p.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "date_modified": "2023-07-04T16:36:27.343Z"
+  },
+  {
+    "title": "Sword Art Online alicization war of underworld",
+    "slug": "sword-art-online-alicization-war-of-underworld",
+    "image_url": "img/sword-art-online-alicization-war-of-underworld.png",
+    "files": [
+      "Otakudesu_SAO.AWU--00_720p.mp4",
+      "Otakudesu_SAO.AWU--01_720p.mp4",
+      "Otakudesu_SAO.AWU--02_720p.mp4",
+      "Otakudesu_SAO.AWU--03_720p.mp4",
+      "Otakudesu_SAO.AWU--04_720p.mp4",
+      "Otakudesu_SAO.AWU--05_720p.mp4",
+      "Otakudesu_SAO.AWU--06_720p.mp4",
+      "Otakudesu_SAO.AWU--07_720p.mp4",
+      "Otakudesu_SAO.AWU--08_720p.mp4",
+      "Otakudesu_SAO.AWU--09_720p.mp4",
+      "Otakudesu_SAO.AWU--10_720p.mp4",
+      "Otakudesu_SAO.AWU--11_720p.mp4",
+      "Otakudesu_SAO.AWU--12_End_720p.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "date_modified": "2023-07-04T16:36:19.730Z"
+  },
+  {
+    "title": "Sword Art Online Alicization war of underworld Season 2",
+    "slug": "sword-art-online-alicization-war-of-underworld-season-2",
+    "image_url": "img/sword-art-online-alicization-war-of-underworld-season-2.png",
+    "files": [
+      "Sword art online alicization- war of underworld eps 13 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 14 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 15 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 16 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 17 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 18 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 19 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 20 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 21 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 22 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 23 subtitle indonesia.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "date_modified": "2023-07-04T16:36:09.630Z"
+  },
+  {
+    "title": "Sword Art Online Ordinal Scale",
+    "slug": "sword-art-online-ordinal-scale",
+    "image_url": "img/sword-art-online-ordinal-scale.png",
+    "files": [
+      "Sword Art Online Ordinal Scale (2017).mp4"
+    ],
+    "genre": [
+      "Action",
+      "Romance"
+    ],
+    "date_modified": "2023-07-04T15:57:08.844Z"
+  },
+  {
+    "title": "Sword Art Online Season 1",
+    "slug": "sword-art-online-season-1",
+    "image_url": "img/sword-art-online-season-1.png",
+    "files": [
+      "Meownime_SAO_S2_01_720p.mp4",
+      "Meownime_SAO_S2_02_720p.mp4",
+      "Meownime_SAO_S2_03_720p.mp4",
+      "Meownime_SAO_S2_04_720p.mp4",
+      "Meownime_SAO_S2_05_720p.mp4",
+      "Meownime_SAO_S2_06_720p.mp4",
+      "Meownime_SAO_S2_07_720p.mp4",
+      "Meownime_SAO_S2_08_720p.mp4",
+      "Meownime_SAO_S2_09_720p.mp4",
+      "Meownime_SAO_S2_10_720p.mp4",
+      "Meownime_SAO_S2_11_720p.mp4",
+      "Meownime_SAO_S2_12_720p.mp4",
+      "Meownime_SAO_S2_13_720p.mp4",
+      "Meownime_SAO_S2_14_720p.mp4",
+      "Meownime_SAO_S2_15_720p.mp4",
+      "Meownime_SAO_S2_16_720p.mp4",
+      "Meownime_SAO_S2_17_720p.mp4",
+      "Meownime_SAO_S2_18_720p.mp4",
+      "Meownime_SAO_S2_19_720p.mp4",
+      "Meownime_SAO_S2_20_720p.mp4",
+      "Meownime_SAO_S2_21_720p.mp4",
+      "Meownime_SAO_S2_22_720p.mp4",
+      "Meownime_SAO_S2_23_720p.mp4",
+      "Meownime_SAO_S2_24_720p.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "date_modified": "2023-07-04T16:34:58.246Z"
+  },
+  {
+    "title": "Sword Art Online Season 2",
+    "slug": "sword-art-online-season-2",
+    "image_url": "img/sword-art-online-season-2.png",
+    "files": [
+      "Meownime_SAO_S1_01_720p.mp4",
+      "Meownime_SAO_S1_02_720p.mp4",
+      "Meownime_SAO_S1_03_720p.mp4",
+      "Meownime_SAO_S1_04_720p.mp4",
+      "Meownime_SAO_S1_05_720p.mp4",
+      "Meownime_SAO_S1_06_720p.mp4",
+      "Meownime_SAO_S1_07_720p.mp4",
+      "Meownime_SAO_S1_08_720p.mp4",
+      "Meownime_SAO_S1_09_720p.mp4",
+      "Meownime_SAO_S1_10_720p.mp4",
+      "Meownime_SAO_S1_11_720p.mp4",
+      "Meownime_SAO_S1_12_720p.mp4",
+      "Meownime_SAO_S1_13_720p.mp4",
+      "Meownime_SAO_S1_14_720p.mp4",
+      "Meownime_SAO_S1_15_720p.mp4",
+      "Meownime_SAO_S1_16_720p.mp4",
+      "Meownime_SAO_S1_17_720p.mp4",
+      "Meownime_SAO_S1_18_720p.mp4",
+      "Meownime_SAO_S1_19_720p.mp4",
+      "Meownime_SAO_S1_20_720p.mp4",
+      "Meownime_SAO_S1_21_720p.mp4",
+      "Meownime_SAO_S1_22_720p.mp4",
+      "Meownime_SAO_S1_23_720p.mp4",
+      "Meownime_SAO_S1_24_720p.mp4",
+      "Meownime_SAO_S1_25_720p.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "date_modified": "2023-07-04T16:35:13.649Z"
+  },
+  {
+    "title": "Tensei shitara Ken Deshita",
+    "slug": "tensei-shitara-ken-deshita",
+    "image_url": "img/tensei-shitara-ken-deshita.png",
+    "files": [
+      "TSKD--01_720p.mp4",
+      "TSKD--02_720p.mp4",
+      "TSKD--03_720p.mp4",
+      "TSKD--04_720p.mp4",
+      "TSKD--05_720p.mp4",
+      "TSKD--06_720p.mp4",
+      "TSKD--07_720p.mp4",
+      "TSKD--08_720p.mp4",
+      "TSKD--09_720p.mp4",
+      "TSKD--10_720p.mp4",
+      "TSKD--11_720p.mp4",
+      "TSKD--12_End_720p.mp4"
+    ],
+    "genre": [
+      "Isekai",
+      "Reincarnation"
+    ],
+    "date_modified": "2023-07-04T09:37:56.068Z"
   }
 ]

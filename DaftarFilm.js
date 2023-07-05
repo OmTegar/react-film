@@ -10,6 +10,16 @@ function createSlug(title) {
   return title.replace(/\s+/g, "-").toLowerCase();
 }
 
+// Fungsi untuk membaca isi file genre.txt
+function readGenreFile(folderPath) {
+  const genreFilePath = path.join(folderPath, "genre.txt");
+  if (fs.existsSync(genreFilePath)) {
+    const genreData = fs.readFileSync(genreFilePath, "utf-8");
+    return genreData.trim().split("\r\n"); // Memisahkan genre berdasarkan baris baru
+  }
+  return null;
+}
+
 // Rekursif: Fungsi untuk membaca folder secara rekursif
 function readMovieFolder(folderPath) {
   // Baca isi direktori folder film
@@ -23,17 +33,25 @@ function readMovieFolder(folderPath) {
       // Filter file-file film berdasarkan format (misalnya, mp4)
       const movieFilesFiltered = movieFiles.filter((file) => {
         const fileExtension = path.extname(file).toLowerCase();
-        return fileExtension === ".mp4"; // Ubah format sesuai kebutuhan
+        return fileExtension === ".mp4" || fileExtension === ".mkv" || fileExtension === ".avi";
+        // Ubah format sesuai dengan ekstensi file yang ingin Anda sertakan
       });
+
+      // Dapatkan waktu modifikasi folder film
+      const folderStat = fs.statSync(itemPath);
+      const dateModified = folderStat.mtime.toISOString();
 
       // Buat objek untuk film dan tambahkan ke dalam array movies
       if (movieFilesFiltered.length > 0) {
         const movieTitle = item;
+        const movieGenre = readGenreFile(itemPath);
         const movie = {
           title: movieTitle,
           slug: createSlug(movieTitle),
           image_url: `img/${createSlug(movieTitle)}.png`,
           files: movieFilesFiltered,
+          genre: movieGenre,
+          date_modified: dateModified,
         };
         movies.push(movie);
       }
