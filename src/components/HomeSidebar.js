@@ -1,24 +1,27 @@
 import React, { useEffect, useState, useRef } from "react";
 import moviesData from "../data/movies.json";
 import mixitup from "mixitup";
+/* eslint-disable react-hooks/exhaustive-deps */
+
 
 const HomeSidebar = () => {
   const containerRef = useRef(null);
   const [mixitupInstance, setMixitupInstance] = useState(null);
   const [currentFilter, setCurrentFilter] = useState("*");
-
+  
   useEffect(() => {
     setProductItemBackground();
     initializeMixitup();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     return () => {
       if (mixitupInstance) {
         mixitupInstance.destroy();
       }
     };
-  }, [mixitupInstance]); // Include mixitupInstance in the dependency array
+  }, []);
 
   const setProductItemBackground = () => {
-    const productItems = document.querySelectorAll(
+    const productItems = containerRef.current.querySelectorAll(
       ".product__sidebar__view__item"
     );
     productItems.forEach((item) => {
@@ -42,7 +45,7 @@ const HomeSidebar = () => {
     setCurrentFilter(filter);
   };
 
-  const latestMovies = moviesData.slice(0, 5); // Ambil 5 item terbaru
+  const latestMovies = moviesData.slice(0, 4); // Ambil 5 item terbaru
 
   return (
     <div className="col-lg-4 col-md-6 col-sm-8">

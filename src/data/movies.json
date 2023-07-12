@@ -1,46 +1,277 @@
 [
   {
-    "title": "Eiyuu,BuwoKiwameruTame",
-    "slug": "eiyuu,buwokiwamerutame",
-    "image_url": "img/eiyuu,buwokiwamerutame.png",
+    "id": 1,
+    "title": "Jimihen!!- Jimiko wo Kaechau Jun Isei Kouyuu!!",
+    "slug": "jimihen!!--jimiko-wo-kaechau-jun-isei-kouyuu!!",
+    "image_url": "img/jimihen!!--jimiko-wo-kaechau-jun-isei-kouyuu!!.png",
     "files": [
-      "Eiyuuou--01_720p.mp4",
-      "Eiyuuou--02_720p.mp4",
-      "Eiyuuou--03_720p.mp4",
-      "Eiyuuou--04_720p.mp4",
-      "Eiyuuou--05_720p.mp4",
-      "Eiyuuou--06_720p.mp4",
-      "Eiyuuou--07_720p.mp4",
-      "Eiyuuou--08_720p.mp4",
-      "Eiyuuou--09_720p.mp4",
-      "Eiyuuou--10_720p.mp4",
-      "Eiyuuou--11_720p.mp4",
-      "Eiyuuou--12_End_720p.mp4"
+      "Episode-1.mp4",
+      "Episode-2.mp4",
+      "Episode-3.mp4",
+      "Episode-4.mp4",
+      "Episode-5.mp4",
+      "Episode-6.mp4",
+      "Episode-7.mp4",
+      "Episode-8.mp4"
+    ],
+    "genre": [
+      "Hentong",
+      "Romance"
+    ],
+    "description": [
+      "Judul ini telah dikategorikan sebagai 'konten dewasa', oleh karena itu mungkin konten ini mengandung kekerasan, darah, konten seksual atau bahasa yang tidak baik yang mungkin tidak sesuai untuk penonton di bawah umur."
+    ],
+    "studios": [
+      "Studio Hokiboshi"
+    ],
+    "release_date": [
+      "Feb 23, 2021"
+    ],
+    "scores": [
+      "6.35/10"
+    ],
+    "duration": [
+      "7 min. per episode"
+    ],
+    "quality": [
+      "720p"
+    ],
+    "date_modified": "2023-07-12T20:15:04.920Z"
+  },
+  {
+    "id": 2,
+    "title": "Tensei shitara Ken Deshita",
+    "slug": "tensei-shitara-ken-deshita",
+    "image_url": "img/tensei-shitara-ken-deshita.png",
+    "files": [
+      "Episode-1.mp4",
+      "Episode-10.mp4",
+      "Episode-11.mp4",
+      "Episode-12.mp4",
+      "Episode-2.mp4",
+      "Episode-3.mp4",
+      "Episode-4.mp4",
+      "Episode-5.mp4",
+      "Episode-6.mp4",
+      "Episode-7.mp4",
+      "Episode-8.mp4",
+      "Episode-9.mp4"
+    ],
+    "genre": [
+      "Fantasy",
+      "Adventure",
+      "Isekai"
+    ],
+    "description": [
+      "Ichirou Suzuki, seorang pria biasa yang berusia 29 tahun, terjebak dalam kehidupan yang membosankan. Namun, segalanya berubah ketika ia tiba-tiba terbangun dalam tubuh seorang anak laki-laki bernama Wendelin von Benno Baumeister, seorang ksatria berbakat di dunia fantasi."
+    ],
+    "studios": [
+      "Lantis",
+      "Studio A-CAT"
+    ],
+    "release_date": [
+      "Jan 4, 2022"
+    ],
+    "scores": [
+      "7.15/10"
+    ],
+    "duration": [
+      "24 min. per episode"
+    ],
+    "quality": [
+      "720p"
+    ],
+    "date_modified": "2023-07-12T20:11:06.578Z"
+  },
+  {
+    "id": 3,
+    "title": "Kage no Jitsuryokusha ni Naritakute !",
+    "slug": "kage-no-jitsuryokusha-ni-naritakute-!",
+    "image_url": "img/kage-no-jitsuryokusha-ni-naritakute-!.png",
+    "files": [
+      "Episode-1.mp4",
+      "Episode-10.mp4",
+      "Episode-11.mp4",
+      "Episode-12.mp4",
+      "Episode-13.mp4",
+      "Episode-14.mp4",
+      "Episode-15.mp4",
+      "Episode-16.mp4",
+      "Episode-17.mp4",
+      "Episode-18.mp4",
+      "Episode-19.mp4",
+      "Episode-2.mp4",
+      "Episode-20.mp4",
+      "Episode-3.mp4",
+      "Episode-4.mp4",
+      "Episode-5.mp4",
+      "Episode-6.mp4",
+      "Episode-7.mp4",
+      "Episode-8.mp4",
+      "Episode-9.mp4"
+    ],
+    "genre": [
+      "Fantasy",
+      "Isekai",
+      "Action",
+      "Adventure",
+      "Magic"
+    ],
+    "description": [
+      "Seorang pegawai kantoran berusia 20 tahun yang kesal dengan kehidupan sehari-hari dan ingin mengubah nasibnya. Dia tiba-tiba dipanggil ke dunia lain sebagai seorang Ksatria Bayangan. Di dunia itu, semua orang memiliki Bakat khusus yang diberikan oleh Dewi. Dalam menjalani kehidupan barunya, dia bertemu dengan berbagai karakter yang unik dan menjalani petualangan yang menantang."
+    ],
+    "studios": [
+      "EGG FIRM, HORNETS"
+    ],
+    "release_date": [
+      "1 Oktober 2021"
+    ],
+    "scores": [
+      "7.18/10"
+    ],
+    "duration": [
+      "24 min. per episode"
+    ],
+    "quality": [
+      "720p"
+    ],
+    "date_modified": "2023-07-12T20:04:43.520Z"
+  },
+  {
+    "id": 4,
+    "title": "Sword Art Online Season 2",
+    "slug": "sword-art-online-season-2",
+    "image_url": "img/sword-art-online-season-2.png",
+    "files": [
+      "Episode-1.mp4",
+      "Episode-10.mp4",
+      "Episode-11.mp4",
+      "Episode-12.mp4",
+      "Episode-13.mp4",
+      "Episode-14.mp4",
+      "Episode-15.mp4",
+      "Episode-16.mp4",
+      "Episode-17.mp4",
+      "Episode-18.mp4",
+      "Episode-19.mp4",
+      "Episode-2.mp4",
+      "Episode-20.mp4",
+      "Episode-21.mp4",
+      "Episode-22.mp4",
+      "Episode-23.mp4",
+      "Episode-24.mp4",
+      "Episode-3.mp4",
+      "Episode-4.mp4",
+      "Episode-5.mp4",
+      "Episode-6.mp4",
+      "Episode-7.mp4",
+      "Episode-8.mp4",
+      "Episode-9.mp4"
     ],
     "genre": [
       "Action",
+      "Adventure",
       "Fantasy",
-      "Isekai"
+      "Game",
+      "Romance"
     ],
-    "date_modified": "2023-07-04T09:37:39.166Z"
+    "description": [
+      "Setahun setelah berhasil keluar dari Sword Art Online, Kazuto Kirigaya kembali menjalani kehidupan di dunia nyata. Namun, kedamaian tersebut tidak berlangsung lama ketika sebuah insiden baru terjadi dalam game bernama Gun Gale Online. Seorang pemain bernama Death Gun tampaknya membunuh orang-orang di dunia nyata dengan menembak mereka di dalam game. Dihubungi oleh petugas untuk membantu menyelidiki pembunuhan tersebut, Kazuto mengambil persona Kirito sekali lagi dan masuk ke dalam Gun Gale Online dengan tujuan menghentikan pembunuh tersebut."
+    ],
+    "studios": [
+      "A-1 Pictures"
+    ],
+    "release_date": [
+      "5 Juli 2014"
+    ],
+    "scores": [
+      "8/10"
+    ],
+    "duration": [
+      "24 min. per episode"
+    ],
+    "quality": [
+      "720p"
+    ],
+    "date_modified": "2023-07-12T20:00:26.876Z"
   },
   {
+    "id": 5,
+    "title": "Sword Art Online Season 1",
+    "slug": "sword-art-online-season-1",
+    "image_url": "img/sword-art-online-season-1.png",
+    "files": [
+      "Episode-1.mp4",
+      "Episode-10.mp4",
+      "Episode-11.mp4",
+      "Episode-12.mp4",
+      "Episode-13.mp4",
+      "Episode-14.mp4",
+      "Episode-15.mp4",
+      "Episode-16.mp4",
+      "Episode-17.mp4",
+      "Episode-18.mp4",
+      "Episode-19.mp4",
+      "Episode-2.mp4",
+      "Episode-20.mp4",
+      "Episode-21.mp4",
+      "Episode-22.mp4",
+      "Episode-23.mp4",
+      "Episode-24.mp4",
+      "Episode-25.mp4",
+      "Episode-3.mp4",
+      "Episode-4.mp4",
+      "Episode-5.mp4",
+      "Episode-6.mp4",
+      "Episode-7.mp4",
+      "Episode-8.mp4",
+      "Episode-9.mp4"
+    ],
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Game",
+      "Romance"
+    ],
+    "description": [
+      "Pada tahun 2022, realitas virtual telah berkembang pesat, dan sebuah permainan peran daring massal yang bernama Sword Art Online (SAO) diluncurkan. Dengan bantuan teknologi \"NerveGear\", pemain dapat mengendalikan avatar mereka dalam permainan hanya dengan pikiran mereka sendiri."
+    ],
+    "studios": [
+      "A-1 Pictures"
+    ],
+    "release_date": [
+      "July 8, 2012"
+    ],
+    "scores": [
+      "8.01/10"
+    ],
+    "duration": [
+      "23 min. per episode"
+    ],
+    "quality": [
+      "720p"
+    ],
+    "date_modified": "2023-07-12T19:44:15.945Z"
+  },
+  {
+    "id": 6,
     "title": "Isekai Meikyuu de Harem wo",
     "slug": "isekai-meikyuu-de-harem-wo",
     "image_url": "img/isekai-meikyuu-de-harem-wo.png",
     "files": [
-      "Alqanime_IseMeiHarem_BD_01_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_02_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_03_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_04_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_05_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_06_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_07_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_08_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_09_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_10_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_11_1080p.mp4",
-      "Alqanime_IseMeiHarem_BD_12_1080p.mp4"
+      "Episode-1.mp4",
+      "Episode-10.mp4",
+      "Episode-11.mp4",
+      "Episode-12.mp4",
+      "Episode-2.mp4",
+      "Episode-3.mp4",
+      "Episode-4.mp4",
+      "Episode-5.mp4",
+      "Episode-6.mp4",
+      "Episode-7.mp4",
+      "Episode-8.mp4",
+      "Episode-9.mp4"
     ],
     "genre": [
       "Action",
@@ -51,9 +282,68 @@
       "Isekai",
       "Romance"
     ],
-    "date_modified": "2023-07-04T17:41:09.421Z"
+    "description": [
+      "Isekai Meikyuu de Harem wo adalah serial light novel yang ditulis oleh Sogano Shachi dan diilustrasikan oleh Ao Nekonabe. Cerita ini mengisahkan tentang Ryouma Takuma, seorang pria berusia 39 tahun yang tiba-tiba terbangun di dunia lain sebagai karakternya sendiri dalam permainan video favoritnya. Di dunia baru ini, Ryouma memiliki kekuatan luar biasa dan dikelilingi oleh sekelompok wanita cantik yang tertarik padanya. Bersama-sama, mereka menjalani petualangan yang penuh dengan aksi, harem, dan unsur-unsur fantasi yang menarik."
+    ],
+    "studios": [
+      "Studio Mausu"
+    ],
+    "release_date": [
+      "2021"
+    ],
+    "scores": [
+      "7.14"
+    ],
+    "duration": [
+      "24 min"
+    ],
+    "quality": [
+      "720p"
+    ],
+    "date_modified": "2023-07-12T19:40:29.816Z"
   },
   {
+    "id": 7,
+    "title": "Showtime! Uta no Oneesan datte Shitai Season 2",
+    "slug": "showtime!-uta-no-oneesan-datte-shitai-season-2",
+    "image_url": "img/showtime!-uta-no-oneesan-datte-shitai-season-2.png",
+    "files": [
+      "Episode-1.mp4",
+      "Episode-10.mp4",
+      "Episode-2.mp4",
+      "Episode-3.mp4",
+      "Episode-4.mp4",
+      "Episode-5.mp4",
+      "Episode-6.mp4",
+      "Episode-7.mp4",
+      "Episode-8.mp4",
+      "Episode-9.mp4"
+    ],
+    "genre": [
+      "Hentong"
+    ],
+    "description": [
+      "Judul ini telah dikategorikan sebagai 'konten dewasa', oleh karena itu mungkin konten ini mengandung kekerasan, darah, konten seksual atau bahasa yang tidak baik yang mungkin tidak sesuai untuk penonton di bawah umur."
+    ],
+    "studios": [
+      "Rabbit Gate"
+    ],
+    "release_date": [
+      "2022"
+    ],
+    "scores": [
+      "6.50"
+    ],
+    "duration": [
+      "7 min"
+    ],
+    "quality": [
+      "1080p"
+    ],
+    "date_modified": "2023-07-12T19:38:51.019Z"
+  },
+  {
+    "id": 8,
     "title": "KIMI NO NAWA",
     "slug": "kimi-no-nawa",
     "image_url": "img/kimi-no-nawa.png",
@@ -64,9 +354,144 @@
       "Drama",
       "Supernatural"
     ],
-    "date_modified": "2023-07-04T09:37:54.027Z"
+    "description": [
+      "Mitsuha Miyamizu, seorang gadis SMA yang sangat ingin menjalani kehidupan seorang laki-laki di kota Tokyo yang sibuk. Di sisi lain, Taki Tachibana menjalani kehidupan yang sibuk sebagai siswa SMA dan bercita-cita menjadi seorang arsitek. Suatu hari, Mitsuha dan Taki mengalami pertukaran tubuh secara tiba-tiba. Mitsuha menjalani kehidupan Taki di Tokyo, sementara Taki menjalani kehidupan Mitsuha di pedesaan. Keduanya saling mencari untuk mencari jawaban atas fenomena tersebut.",
+      "Kisah Kimi no Na wa. berfokus pada tindakan Mitsuha dan Taki yang secara tidak sengaja membawa dampak yang dramatis dalam kehidupan mereka. Mereka terikat oleh takdir dan keadaan yang menghubungkan kisah mereka menjadi satu, dan mereka berusaha untuk menyatukan kembali kehidupan mereka yang terpisah."
+    ],
+    "studios": [
+      "CoMix Wave Films"
+    ],
+    "release_date": [
+      "Aug 26, 2016"
+    ],
+    "scores": [
+      "8.85"
+    ],
+    "duration": [
+      "1 hr. 46 min."
+    ],
+    "quality": [
+      "1080p"
+    ],
+    "date_modified": "2023-07-12T15:59:30.230Z"
   },
   {
+    "id": 9,
+    "title": "Sword Art Online Ordinal Scale",
+    "slug": "sword-art-online-ordinal-scale",
+    "image_url": "img/sword-art-online-ordinal-scale.png",
+    "files": [
+      "Sword Art Online Ordinal Scale (2017).mp4"
+    ],
+    "genre": [
+      "Unknown"
+    ],
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.323Z"
+  },
+  {
+    "id": 10,
+    "title": "Sword Art Online Alicization war of underworld Season 2",
+    "slug": "sword-art-online-alicization-war-of-underworld-season-2",
+    "image_url": "img/sword-art-online-alicization-war-of-underworld-season-2.png",
+    "files": [
+      "Sword art online alicization- war of underworld eps 13 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 14 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 15 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 16 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 17 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 18 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 19 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 20 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 21 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 22 subtitle indonesia.mp4",
+      "Sword art online alicization- war of underworld eps 23 subtitle indonesia.mp4"
+    ],
+    "genre": [
+      "Unknown"
+    ],
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.322Z"
+  },
+  {
+    "id": 11,
+    "title": "Sword Art Online alicization war of underworld",
+    "slug": "sword-art-online-alicization-war-of-underworld",
+    "image_url": "img/sword-art-online-alicization-war-of-underworld.png",
+    "files": [
+      "Otakudesu_SAO.AWU--00_720p.mp4",
+      "Otakudesu_SAO.AWU--01_720p.mp4",
+      "Otakudesu_SAO.AWU--02_720p.mp4",
+      "Otakudesu_SAO.AWU--03_720p.mp4",
+      "Otakudesu_SAO.AWU--04_720p.mp4",
+      "Otakudesu_SAO.AWU--05_720p.mp4",
+      "Otakudesu_SAO.AWU--06_720p.mp4",
+      "Otakudesu_SAO.AWU--07_720p.mp4",
+      "Otakudesu_SAO.AWU--08_720p.mp4",
+      "Otakudesu_SAO.AWU--09_720p.mp4",
+      "Otakudesu_SAO.AWU--10_720p.mp4",
+      "Otakudesu_SAO.AWU--11_720p.mp4",
+      "Otakudesu_SAO.AWU--12_End_720p.mp4"
+    ],
+    "genre": [
+      "Unknown"
+    ],
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.321Z"
+  },
+  {
+    "id": 12,
     "title": "sword art online alicization",
     "slug": "sword-art-online-alicization",
     "image_url": "img/sword-art-online-alicization.png",
@@ -97,177 +522,283 @@
       "Otakudesu_SAO.Alicization--24_720p.mp4"
     ],
     "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Romance"
+      "Unknown"
     ],
-    "date_modified": "2023-07-04T16:36:27.343Z"
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.320Z"
   },
   {
-    "title": "Sword Art Online alicization war of underworld",
-    "slug": "sword-art-online-alicization-war-of-underworld",
-    "image_url": "img/sword-art-online-alicization-war-of-underworld.png",
+    "id": 13,
+    "title": "Overlord season 3",
+    "slug": "overlord-season-3",
+    "image_url": "img/overlord-season-3.png",
     "files": [
-      "Otakudesu_SAO.AWU--00_720p.mp4",
-      "Otakudesu_SAO.AWU--01_720p.mp4",
-      "Otakudesu_SAO.AWU--02_720p.mp4",
-      "Otakudesu_SAO.AWU--03_720p.mp4",
-      "Otakudesu_SAO.AWU--04_720p.mp4",
-      "Otakudesu_SAO.AWU--05_720p.mp4",
-      "Otakudesu_SAO.AWU--06_720p.mp4",
-      "Otakudesu_SAO.AWU--07_720p.mp4",
-      "Otakudesu_SAO.AWU--08_720p.mp4",
-      "Otakudesu_SAO.AWU--09_720p.mp4",
-      "Otakudesu_SAO.AWU--10_720p.mp4",
-      "Otakudesu_SAO.AWU--11_720p.mp4",
-      "Otakudesu_SAO.AWU--12_End_720p.mp4"
+      "Otakudesu_Ovlord.S3--01_720p.mp4",
+      "Otakudesu_Ovlord.S3--02_720p.mp4",
+      "Otakudesu_Ovlord.S3--03_720p.mp4",
+      "Otakudesu_Ovlord.S3--04_720p.mp4",
+      "Otakudesu_Ovlord.S3--05_720p.mp4",
+      "Otakudesu_Ovlord.S3--06_720p.mp4",
+      "Otakudesu_Ovlord.S3--07_720p.mp4",
+      "Otakudesu_Ovlord.S3--08_720p.mp4",
+      "Otakudesu_Ovlord.S3--09_720p.mp4",
+      "Otakudesu_Ovlord.S3--10_720p.mp4",
+      "Otakudesu_Ovlord.S3--11_720p.mp4",
+      "Otakudesu_Ovlord.S3--12_720p.mp4",
+      "Otakudesu_Ovlord.S3--13_End_720p.mp4"
     ],
     "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Romance"
+      "Unknown"
     ],
-    "date_modified": "2023-07-04T16:36:19.730Z"
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.319Z"
   },
   {
-    "title": "Sword Art Online Alicization war of underworld Season 2",
-    "slug": "sword-art-online-alicization-war-of-underworld-season-2",
-    "image_url": "img/sword-art-online-alicization-war-of-underworld-season-2.png",
+    "id": 14,
+    "title": "Overlord Season 2",
+    "slug": "overlord-season-2",
+    "image_url": "img/overlord-season-2.png",
     "files": [
-      "Sword art online alicization- war of underworld eps 13 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 14 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 15 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 16 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 17 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 18 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 19 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 20 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 21 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 22 subtitle indonesia.mp4",
-      "Sword art online alicization- war of underworld eps 23 subtitle indonesia.mp4"
+      "Otakudesu_Ovlord.S2--01_720p.mp4",
+      "Otakudesu_Ovlord.S2--02_720p.mp4",
+      "Otakudesu_Ovlord.S2--03_720p.mp4",
+      "Otakudesu_Ovlord.S2--04_720p.mp4",
+      "Otakudesu_Ovlord.S2--05_720p.mp4",
+      "Otakudesu_Ovlord.S2--06_720p.mp4",
+      "Otakudesu_Ovlord.S2--07_720p.mp4",
+      "Otakudesu_Ovlord.S2--08_720p.mp4",
+      "Otakudesu_Ovlord.S2--09_720p.mp4",
+      "Otakudesu_Ovlord.S2--10_720p.mp4",
+      "Otakudesu_Ovlord.S2--11_720p.mp4",
+      "Otakudesu_Ovlord.S2--12_720p.mp4",
+      "Otakudesu_Ovlord.S2--13_End_720p.mp4"
     ],
     "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Romance"
+      "Unknown"
     ],
-    "date_modified": "2023-07-04T16:36:09.630Z"
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.318Z"
   },
   {
-    "title": "Sword Art Online Ordinal Scale",
-    "slug": "sword-art-online-ordinal-scale",
-    "image_url": "img/sword-art-online-ordinal-scale.png",
+    "id": 15,
+    "title": "Overlord Season 1",
+    "slug": "overlord-season-1",
+    "image_url": "img/overlord-season-1.png",
     "files": [
-      "Sword Art Online Ordinal Scale (2017).mp4"
+      "Otakudesu_OverLord_01_720p.mp4",
+      "Otakudesu_OverLord_02_720p.mp4",
+      "Otakudesu_OverLord_03_720p.mp4",
+      "Otakudesu_OverLord_04_720p.mp4",
+      "Otakudesu_OverLord_05_720p.mp4",
+      "Otakudesu_OverLord_06_720p.mp4",
+      "Otakudesu_OverLord_07_720p.mp4",
+      "Otakudesu_OverLord_08_720p.mp4",
+      "Otakudesu_OverLord_09_720p.mp4",
+      "Otakudesu_OverLord_10_720p.mp4",
+      "Otakudesu_OverLord_11_720p.mp4",
+      "Otakudesu_OverLord_12_720p.mp4",
+      "Otakudesu_OverLord_13_End_720p.mp4"
     ],
     "genre": [
-      "Action",
-      "Romance"
+      "Unknown"
     ],
-    "date_modified": "2023-07-04T15:57:08.844Z"
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.317Z"
   },
   {
-    "title": "Sword Art Online Season 1",
-    "slug": "sword-art-online-season-1",
-    "image_url": "img/sword-art-online-season-1.png",
+    "id": 16,
+    "title": "Overlord Season 4",
+    "slug": "overlord-season-4",
+    "image_url": "img/overlord-season-4.png",
     "files": [
-      "Meownime_SAO_S2_01_720p.mp4",
-      "Meownime_SAO_S2_02_720p.mp4",
-      "Meownime_SAO_S2_03_720p.mp4",
-      "Meownime_SAO_S2_04_720p.mp4",
-      "Meownime_SAO_S2_05_720p.mp4",
-      "Meownime_SAO_S2_06_720p.mp4",
-      "Meownime_SAO_S2_07_720p.mp4",
-      "Meownime_SAO_S2_08_720p.mp4",
-      "Meownime_SAO_S2_09_720p.mp4",
-      "Meownime_SAO_S2_10_720p.mp4",
-      "Meownime_SAO_S2_11_720p.mp4",
-      "Meownime_SAO_S2_12_720p.mp4",
-      "Meownime_SAO_S2_13_720p.mp4",
-      "Meownime_SAO_S2_14_720p.mp4",
-      "Meownime_SAO_S2_15_720p.mp4",
-      "Meownime_SAO_S2_16_720p.mp4",
-      "Meownime_SAO_S2_17_720p.mp4",
-      "Meownime_SAO_S2_18_720p.mp4",
-      "Meownime_SAO_S2_19_720p.mp4",
-      "Meownime_SAO_S2_20_720p.mp4",
-      "Meownime_SAO_S2_21_720p.mp4",
-      "Meownime_SAO_S2_22_720p.mp4",
-      "Meownime_SAO_S2_23_720p.mp4",
-      "Meownime_SAO_S2_24_720p.mp4"
+      "Otakudesu.net_Ovlord.S4--01_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--02_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--03_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--04_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--05_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--06_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--07_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--08_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--09_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--10_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--11_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--12_720p.mp4",
+      "Otakudesu.net_Ovlord.S4--13_End_720p.mp4"
     ],
     "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Romance"
+      "Unknown"
     ],
-    "date_modified": "2023-07-04T16:34:58.246Z"
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.314Z"
   },
   {
-    "title": "Sword Art Online Season 2",
-    "slug": "sword-art-online-season-2",
-    "image_url": "img/sword-art-online-season-2.png",
+    "id": 17,
+    "title": "Knights & Magic",
+    "slug": "knights-&-magic",
+    "image_url": "img/knights-&-magic.png",
     "files": [
-      "Meownime_SAO_S1_01_720p.mp4",
-      "Meownime_SAO_S1_02_720p.mp4",
-      "Meownime_SAO_S1_03_720p.mp4",
-      "Meownime_SAO_S1_04_720p.mp4",
-      "Meownime_SAO_S1_05_720p.mp4",
-      "Meownime_SAO_S1_06_720p.mp4",
-      "Meownime_SAO_S1_07_720p.mp4",
-      "Meownime_SAO_S1_08_720p.mp4",
-      "Meownime_SAO_S1_09_720p.mp4",
-      "Meownime_SAO_S1_10_720p.mp4",
-      "Meownime_SAO_S1_11_720p.mp4",
-      "Meownime_SAO_S1_12_720p.mp4",
-      "Meownime_SAO_S1_13_720p.mp4",
-      "Meownime_SAO_S1_14_720p.mp4",
-      "Meownime_SAO_S1_15_720p.mp4",
-      "Meownime_SAO_S1_16_720p.mp4",
-      "Meownime_SAO_S1_17_720p.mp4",
-      "Meownime_SAO_S1_18_720p.mp4",
-      "Meownime_SAO_S1_19_720p.mp4",
-      "Meownime_SAO_S1_20_720p.mp4",
-      "Meownime_SAO_S1_21_720p.mp4",
-      "Meownime_SAO_S1_22_720p.mp4",
-      "Meownime_SAO_S1_23_720p.mp4",
-      "Meownime_SAO_S1_24_720p.mp4",
-      "Meownime_SAO_S1_25_720p.mp4"
+      "Otakudesu_KngMagic--01_720p.mp4",
+      "Otakudesu_KngMagic--02_720p.mp4",
+      "Otakudesu_KngMagic--03_720p.mp4",
+      "Otakudesu_KngMagic--04_720p.mp4",
+      "Otakudesu_KngMagic--05_720p.mp4",
+      "Otakudesu_KngMagic--06_720p.mp4",
+      "Otakudesu_KngMagic--07_720p.mp4",
+      "Otakudesu_KngMagic--08_720p.mp4",
+      "Otakudesu_KngMagic--09_720p.mp4",
+      "Otakudesu_KngMagic--10_720p.mp4",
+      "Otakudesu_KngMagic--11_720p.mp4",
+      "Otakudesu_KngMagic--12_720p.mp4",
+      "Otakudesu_KngMagic--13_End_720p.mp4"
     ],
     "genre": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Romance"
+      "Unknown"
     ],
-    "date_modified": "2023-07-04T16:35:13.649Z"
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.308Z"
   },
   {
-    "title": "Tensei shitara Ken Deshita",
-    "slug": "tensei-shitara-ken-deshita",
-    "image_url": "img/tensei-shitara-ken-deshita.png",
+    "id": 18,
+    "title": "Isekai One Turn Kill Neesan",
+    "slug": "isekai-one-turn-kill-neesan",
+    "image_url": "img/isekai-one-turn-kill-neesan.png",
     "files": [
-      "TSKD--01_720p.mp4",
-      "TSKD--02_720p.mp4",
-      "TSKD--03_720p.mp4",
-      "TSKD--04_720p.mp4",
-      "TSKD--05_720p.mp4",
-      "TSKD--06_720p.mp4",
-      "TSKD--07_720p.mp4",
-      "TSKD--08_720p.mp4",
-      "TSKD--09_720p.mp4",
-      "TSKD--10_720p.mp4",
-      "TSKD--11_720p.mp4",
-      "TSKD--12_End_720p.mp4"
+      "Otakudesu.net_IOTKN--01_720p.mp4",
+      "Otakudesu.net_IOTKN--02_720p.mp4",
+      "Otakudesu.net_IOTKN--03_720p.mp4",
+      "Otakudesu.net_IOTKN--04_720p.mp4",
+      "Otakudesu.net_IOTKN--05_720p.mp4",
+      "Otakudesu.net_IOTKN--06_720p.mp4",
+      "Otakudesu.net_IOTKN--07_720p.mp4",
+      "Otakudesu.net_IOTKN--08_720p.mp4",
+      "Otakudesu.net_IOTKN--09_720p.mp4",
+      "Otakudesu.net_IOTKN--10_720p.mp4",
+      "Otakudesu.net_IOTKN--11_720p.mp4",
+      "Otakudesu.net_IOTKN--12_End_720p.mp4"
     ],
     "genre": [
-      "Isekai",
-      "Reincarnation"
+      "Unknown"
     ],
-    "date_modified": "2023-07-04T09:37:56.068Z"
+    "description": [
+      "Unknown"
+    ],
+    "studios": [
+      "Unknown"
+    ],
+    "release_date": [
+      "Unknown"
+    ],
+    "scores": [
+      "Unknown"
+    ],
+    "duration": [
+      "Unknown"
+    ],
+    "quality": [
+      "Unknown"
+    ],
+    "date_modified": "2023-07-12T15:48:30.298Z"
   }
 ]

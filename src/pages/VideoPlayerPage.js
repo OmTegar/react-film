@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import moviesData from "../data/movies.json";
 import BreadcrumbComponent from "../components/Breadcrumb";
 import Plyr from "plyr";

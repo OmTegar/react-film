@@ -9,12 +9,11 @@ const Footer = () => {
       window.scrollTo(0, c - c / 8);
     }
   };
-  
 
   return (
     <footer className="footer">
       <div className="page-up">
-        <a id="scrollToTopButton" onClick={scrollToTop}>
+        <a href="#scrollToTopButton" onClick={scrollToTop}>
           <span className="arrow_carrot-up"></span>
         </a>
       </div>
@@ -34,10 +33,10 @@ const Footer = () => {
                   <a href="/">Homepage</a>
                 </li>
                 <li>
-                  <a href="/categories.html">Categories</a>
+                  <a href="/categories">Categories</a>
                 </li>
                 <li>
-                  <a href="/blog.html">Our Blog</a>
+                  <a href="/blog">Our Blog</a>
                 </li>
                 <li>
                   <a href="/contact">Contacts</a>
@@ -49,7 +48,9 @@ const Footer = () => {
             <p>
               &copy; {new Date().getFullYear()} All rights reserved | This template is made with{" "}
               <i className="fa fa-heart" aria-hidden="true"></i> by{" "}
-              <a href="https://omtegar.me">Omtegar</a>
+              <a href="https://omtegar.me" target="_blank" rel="noopener noreferrer" className="mx-1">
+                Omtegar
+              </a>
             </p>
           </div>
         </div>

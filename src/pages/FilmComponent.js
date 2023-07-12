@@ -38,6 +38,13 @@ const NontonPage = () => {
 
   const breadcrumbElement = <BreadcrumbComponent />;
 
+  const descriptionElements = movie.description.map((desc, index) => (
+    <p key={index}>
+      {desc}
+      {index !== movie.description.length - 1 && <br />}
+    </p>
+  ));
+
   return (
     <div>
       {breadcrumbElement}
@@ -63,19 +70,10 @@ const NontonPage = () => {
                   <div className="anime__details__title">
                     <h3>{movie.title}</h3>
                     <span>
-                      {movie.subtitle} フェイト／ステイナイト, TDmovies{" "}
-                      {movie.title}
+                      {movie.subtitle} フェイト／ステイナイト, TDmovies - {movie.title} - {movie.quality } Quality
                     </span>
                   </div>
-                  <p>
-                    {movie.description}
-                    Every human inhabiting the world of Alcia is branded by a
-                    “Count” or a number written on their body. For Hina’s
-                    mother, her total drops to 0 and she’s pulled into the
-                    Abyss, never to be seen again. But her mother’s last words
-                    send Hina on a quest to find a legendary hero from the Waste
-                    War - the fabled Ace!
-                  </p>
+                  {descriptionElements}
                   <div className="anime__details__widget">
                     <div className="row">
                       <div className="col-lg-6 col-md-6">
@@ -85,8 +83,8 @@ const NontonPage = () => {
                             {movie.studios}
                           </li>
                           <li>
-                            <span>Date aired:</span>
-                            {movie.date_modified}
+                            <span>release date:</span>
+                            {movie.release_date}
                           </li>
                           <li>
                             <span>Genre:</span>
@@ -100,13 +98,10 @@ const NontonPage = () => {
                             <span>Scores:</span> {movie.scores}
                           </li>
                           <li>
-                            <span>Rating:</span> {movie.rating}
-                          </li>
-                          <li>
                             <span>Duration:</span> {movie.duration}
                           </li>
                           <li>
-                            <span>Quality:</span> HD
+                            <span>Quality:</span> {movie.quality }
                           </li>
                         </ul>
                       </div>
@@ -153,7 +148,7 @@ const NontonPage = () => {
                     <i className="fa fa-eye"></i> 9141
                   </div>
                   <h5>
-                    <a href="#">Boruto: Naruto next generations</a>
+                    <a href="/">Boruto: Naruto next generations</a>
                   </h5>
                 </div>
               </div>

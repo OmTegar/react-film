@@ -10,14 +10,27 @@ function createSlug(title) {
   return title.replace(/\s+/g, "-").toLowerCase();
 }
 
-// Fungsi untuk membaca isi file genre.txt
-function readGenreFile(folderPath) {
-  const genreFilePath = path.join(folderPath, "genre.txt");
-  if (fs.existsSync(genreFilePath)) {
-    const genreData = fs.readFileSync(genreFilePath, "utf-8");
-    return genreData.trim().split("\r\n"); // Memisahkan genre berdasarkan baris baru
+// Fungsi untuk membaca isi file equipment.txt
+function readEquipmentFile(folderPath) {
+  const equipmentFilePath = path.join(folderPath, "equipment.txt");
+  if (fs.existsSync(equipmentFilePath)) {
+    const equipmentData = fs.readFileSync(equipmentFilePath, "utf-8");
+    return JSON.parse(equipmentData);
   }
-  return null;
+  return getDefaultEquipmentData();
+}
+
+// Fungsi untuk mendapatkan data equipment default jika equipment.txt tidak ada
+function getDefaultEquipmentData() {
+  return {
+    genre: ["Unknown"],
+    description: ["Unknown"],
+    studios: ["Unknown"],
+    release_date: ["Unknown"],
+    scores: ["Unknown"],
+    duration: ["Unknown"],
+    quality: ["Unknown"],
+  };
 }
 
 // Rekursif: Fungsi untuk membaca folder secara rekursif
@@ -41,16 +54,25 @@ function readMovieFolder(folderPath) {
       const folderStat = fs.statSync(itemPath);
       const dateModified = folderStat.mtime.toISOString();
 
+      // Baca file equipment.txt atau gunakan data default jika tidak ada
+      const equipmentData = readEquipmentFile(itemPath);
+
       // Buat objek untuk film dan tambahkan ke dalam array movies
       if (movieFilesFiltered.length > 0) {
         const movieTitle = item;
-        const movieGenre = readGenreFile(itemPath);
         const movie = {
+          id: movies.length + 1, // Generate unique ID based on array length
           title: movieTitle,
           slug: createSlug(movieTitle),
           image_url: `img/${createSlug(movieTitle)}.png`,
           files: movieFilesFiltered,
-          genre: movieGenre,
+          genre: equipmentData.genre,
+          description: equipmentData.description,
+          studios: equipmentData.studios,
+          release_date: equipmentData.release_date,
+          scores: equipmentData.scores,
+          duration: equipmentData.duration,
+          quality: equipmentData.quality,
           date_modified: dateModified,
         };
         movies.push(movie);
@@ -61,6 +83,14 @@ function readMovieFolder(folderPath) {
 
 // Panggil fungsi rekursif untuk membaca folder film
 readMovieFolder(moviesDirectory);
+
+// Urutkan array movies berdasarkan date_modified
+movies.sort((a, b) => new Date(b.date_modified) - new Date(a.date_modified));
+
+// Assign IDs based on the sorted order
+movies.forEach((movie, index) => {
+  movie.id = index + 1;
+});
 
 // Ubah array movies menjadi JSON
 const moviesJSON = JSON.stringify(movies, null, 2);
