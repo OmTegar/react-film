@@ -7,6 +7,7 @@ const NontonPage = () => {
   const { slug } = useParams();
 
   const [movie, setMovie] = useState(null);
+  const [similarMovies, setSimilarMovies] = useState([]);
 
   useEffect(() => {
     const movie = moviesData.find((item) => item.slug === slug);
@@ -17,37 +18,116 @@ const NontonPage = () => {
     }
 
     setMovie(movie);
+
+    // Cari film-film serupa berdasarkan genre
+    const similarMovies = moviesData.filter(
+      (item) =>
+        item.slug !== slug &&
+        item.genre.some((genre) => movie.genre.includes(genre))
+    );
+    setSimilarMovies(similarMovies);
   }, [slug]);
 
   useEffect(() => {
     const setProductItemBackground = () => {
-      const productItems = document.querySelectorAll(".anime__details__pic");
-      productItems.forEach((item) => {
-        const bg = item.getAttribute("data-setbg");
-        item.style.backgroundImage = `url(${bg})`;
-      });
+      const productItem = document.querySelector(".anime__details__pic");
+      if (productItem && movie) {
+        const bg = movie.image_url;
+        productItem.style.backgroundImage = `url(${bg})`;
+      }
     };
 
     setProductItemBackground();
   }, [movie]);
 
-  if (!movie) {
-    // Display message if movie is not found
-    return <div>Film tidak ditemukan</div>;
-  }
+  // const breadcrumbElement = <BreadcrumbComponent />;
 
-  const breadcrumbElement = <BreadcrumbComponent />;
-
-  const descriptionElements = movie.description.map((desc, index) => (
+  const descriptionElements = movie?.description.map((desc, index) => (
     <p key={index}>
       {desc}
       {index !== movie.description.length - 1 && <br />}
     </p>
   ));
 
+  const countEpisode = (slug) => {
+    const movie = moviesData.find((m) => m.slug === slug);
+    return movie ? movie.files.length : 0;
+  };
+
+  const GenreItem = ({ genre }) => {
+    const maxGenreLength = 3;
+
+    if (genre.length <= maxGenreLength) {
+      return genre.map((g, index) => (
+        <li key={index} className="mx-1">
+          {g}
+        </li>
+      ));
+    } else {
+      return (
+        <>
+          {genre.slice(0, maxGenreLength).map((g, index) => (
+            <li key={index} className="mx-1" style={{ lineHeight: "15px" }}>
+              {g}
+            </li>
+          ))}
+          <li className="mx-1 genre-hovered">
+            +{genre.length - maxGenreLength}
+          </li>
+        </>
+      );
+    }
+  };
+
+  const similarMoviesElements = similarMovies
+  .sort((a, b) => {
+    // Sort similar movies based on the number of matching genres
+    const aMatchingGenres = a.genre.filter((genre) =>
+      movie.genre.includes(genre)
+    );
+    const bMatchingGenres = b.genre.filter((genre) =>
+      movie.genre.includes(genre)
+    );
+
+    return bMatchingGenres.length - aMatchingGenres.length;
+  })
+  .slice(0, 3)
+  .map((similarMovie) => (
+    <a href={`/${similarMovie.slug}`} key={similarMovie.slug}>
+      <div
+        className="product__sidebar__view__item set-bg"
+        style={{ backgroundImage: `url(${similarMovie.image_url})` }}
+      >
+        <div className="ep">
+          {countEpisode(similarMovie.slug)} / {countEpisode(similarMovie.slug)}
+        </div>
+        <div className="view">
+          <i className="fa fa-eye"></i> {similarMovie.views}
+        </div>
+        <h5
+          className="text-white text-decoration-none"
+          style={{ fontWeight: 700, lineHeight: "26px", bottom: "40px" }}
+        >
+          {similarMovie.title}
+        </h5>
+        <div className="product__item__text" style={{ bottom: 0, position:"absolute", fontWeight: 700, lineHeight: "26px",width: "100%", padding: "0 30px 0 20px", }}>
+          <ul className="genre">
+            <GenreItem genre={similarMovie.genre} />
+          </ul>
+        </div>
+      </div>
+    </a>
+  ));
+
+
+  if (!movie) {
+    // Display message or handle the case when movie is not found
+    return <div>Film tidak ditemukan</div>;
+  }
+
   return (
     <div>
-      {breadcrumbElement}
+      <BreadcrumbComponent />;
       <section className="anime-details spad">
         <div className="container">
           <div className="anime__details__content">
@@ -70,7 +150,8 @@ const NontonPage = () => {
                   <div className="anime__details__title">
                     <h3>{movie.title}</h3>
                     <span>
-                      {movie.subtitle} フェイト／ステイナイト, TDmovies - {movie.title} - {movie.quality } Quality
+                      {movie.subtitle} フェイト／ステイナイト, TDmovies -{" "}
+                      {movie.title} - {movie.quality} Quality
                     </span>
                   </div>
                   {descriptionElements}
@@ -80,7 +161,7 @@ const NontonPage = () => {
                         <ul>
                           <li>
                             <span>Studios:</span>
-                            {movie.studios}
+                            {movie.studios.join(", ")}
                           </li>
                           <li>
                             <span>release date:</span>
@@ -101,7 +182,7 @@ const NontonPage = () => {
                             <span>Duration:</span> {movie.duration}
                           </li>
                           <li>
-                            <span>Quality:</span> {movie.quality }
+                            <span>Quality:</span> {movie.quality}
                           </li>
                         </ul>
                       </div>
@@ -134,23 +215,13 @@ const NontonPage = () => {
                 </form>
               </div>
             </div>
+
             <div className="col-lg-4 col-md-4">
               <div className="anime__details__sidebar">
                 <div className="section-title">
                   <h5>you might like...</h5>
                 </div>
-                <div
-                  className="product__sidebar__view__item set-bg"
-                  data-setbg={movie.image_url}
-                >
-                  <div className="ep">18 / ?</div>
-                  <div className="view">
-                    <i className="fa fa-eye"></i> 9141
-                  </div>
-                  <h5>
-                    <a href="/">Boruto: Naruto next generations</a>
-                  </h5>
-                </div>
+                {similarMoviesElements}
               </div>
             </div>
           </div>

@@ -9,14 +9,14 @@ movies_directory = os.path.dirname(__file__)
 
 def create_equipment_data():
     data = {
-        "genre": [""],
+        "genre": ["...", "..."],
         "description": [
-            "",
+            "..."
         ],
-        "studios": [""],
-        "release_date": [""],
-        "scores": ["..../10"],
-        "duration": [""],
+        "studios": ["..."],
+        "release_date": ["..."], # Format: "tanggal bulan tahun", contoh: "1 Januari 2021"
+        "scores": [".../10"],
+        "duration": ["... min. per episode"],
         "quality": ["720p"]
     }
     return data
@@ -28,7 +28,7 @@ folder_list = [folder for folder in os.listdir(
 
 # Pilih folder yang ingin Anda buat file equipment.txt
 # Ganti dengan folder yang ingin Anda pilih
-selected_folder = "Tensei shitara Ken Deshita"
+selected_folder = "..."
 
 # Periksa apakah folder yang dipilih ada di daftar folder
 if selected_folder in folder_list:

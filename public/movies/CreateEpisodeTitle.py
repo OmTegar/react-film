@@ -1,7 +1,7 @@
 import os
 import re
 
-folder_path = os.path.join(os.path.dirname(__file__), "Jimihen!!- Jimiko wo Kaechau Jun Isei Kouyuu!!")
+folder_path = os.path.join(os.path.dirname(__file__), "...")
 
 # Mendapatkan daftar file di dalam folder
 files = os.listdir(folder_path)
