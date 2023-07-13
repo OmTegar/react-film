@@ -11,6 +11,7 @@ const VideoPlayerPage = () => {
   const [sameSlugMovies, setSameSlugMovies] = useState([]);
   const [movie, setMovie] = useState(null);
   const [posterPath, setPosterPath] = useState("");
+  const [currentEpisode, setCurrentEpisode] = useState(null);
 
   useEffect(() => {
     const movie = moviesData.find((item) => item.slug === slug);
@@ -19,7 +20,7 @@ const VideoPlayerPage = () => {
       (item) => item.slug === slug && item.title === movie.title
     );
 
-    setPosterPath(process.env.PUBLIC_URL + `/herovideo.jpg`);
+    setPosterPath(process.env.PUBLIC_URL + `/herovideo1.jpg`);
 
     setMovie(movie);
     setSameSlugMovies(sameSlugMovies);
@@ -46,11 +47,41 @@ const VideoPlayerPage = () => {
     };
   }, [slug, video]);
 
+  useEffect(() => {
+    if (sameSlugMovies.length > 0) {
+      const currentMovie = sameSlugMovies[0];
+      const currentEpisodeIndex = currentMovie.files.findIndex(
+        (file) => file === video
+      );
+      setCurrentEpisode(currentEpisodeIndex);
+    }
+  }, [sameSlugMovies, video]);
+
+  const handleNextEpisode = () => {
+    if (currentEpisode < sameSlugMovies[0].files.length - 1) {
+      const nextEpisodeIndex = currentEpisode + 1;
+      const nextEpisode = sameSlugMovies[0].files[nextEpisodeIndex];
+      window.location.href = `/${sameSlugMovies[0].slug}/${encodeURIComponent(
+        nextEpisode
+      )}`;
+    }
+  };
+  
+  const handlePrevEpisode = () => {
+    if (currentEpisode > 0) {
+      const prevEpisodeIndex = currentEpisode - 1;
+      const prevEpisode = sameSlugMovies[0].files[prevEpisodeIndex];
+      window.location.href = `/${sameSlugMovies[0].slug}/${encodeURIComponent(
+        prevEpisode
+      )}`;
+    }
+  };
+
   if (!movie) {
     return null;
   }
 
-  playerRef.current = new Plyr("#player", {
+  playerRef.current = new Plyr("#plyr", {
     controls: [
       "play-large",
       "play",
@@ -91,7 +122,7 @@ const VideoPlayerPage = () => {
     },
   });
 
-  const videoExtension = video.split('.').pop().toLowerCase();
+  const videoExtension = video.split(".").pop().toLowerCase();
   let videoType = "video/mp4"; // Tipe default untuk file video .mp4
 
   if (videoExtension === "mkv") {
@@ -107,10 +138,29 @@ const VideoPlayerPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
+              <div className="episode-navigation d-flex justify-content-end mb-3">
+                {currentEpisode > 0 && (
+                  <button
+                    className="episode-navigation__btn mx-2 text-center btn btn-outline-info"
+                    onClick={handlePrevEpisode}
+                  >
+                    Prev To Episode {currentEpisode - 0}
+                  </button> 
+                )}
+                {currentEpisode < sameSlugMovies[0].files.length - 1 && (
+                  <button
+                    className="episode-navigation__btn mx-2 text-center btn btn-outline-info"
+                    onClick={handleNextEpisode}
+                  >
+                    Next To Episode {currentEpisode + 2}
+                  </button>
+                )}
+              </div>
               <div className="anime__video__player">
                 <video
-                  id="player"
-                  style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                  id="plyr"
+                  className="plyr plyr--video"
+                  style={{ width: "100%" }}
                   playsInline
                   controls
                   poster={posterPath}
@@ -133,8 +183,14 @@ const VideoPlayerPage = () => {
                   <h5>List Name</h5>
                 </div>
                 <ul>
-                  {sameSlugMovies.map((item, index) =>
-                    item.files.map((file, fileIndex) => (
+                  {sameSlugMovies.map((item, index) => {
+                    const sortedFiles = item.files.sort((a, b) => {
+                      const episodeA = parseInt(a.match(/\d+/)[0]);
+                      const episodeB = parseInt(b.match(/\d+/)[0]);
+                      return episodeA - episodeB;
+                    });
+
+                    return sortedFiles.map((file, fileIndex) => (
                       <a
                         key={`${index}-${fileIndex}`}
                         href={`/${item.slug}/${encodeURIComponent(file)}`}
@@ -143,8 +199,8 @@ const VideoPlayerPage = () => {
                       >
                         Episode {fileIndex + 1}
                       </a>
-                    ))
-                  )}
+                    ));
+                  })}
                 </ul>
               </div>
             </div>

@@ -946,7 +946,7 @@ ol {
 -----------------------*/
 
 .anime-details {
-	padding-top: 60px;
+	padding-top: 20px;
 }
 
 .anime__details__content {
@@ -1186,7 +1186,7 @@ ol {
 	margin-bottom: 70px;
 }
 
-.anime__video__player .plyr--video {
+.anime__video__player {
 	border-radius: 5px;
 	background: transparent;
 }
@@ -1197,21 +1197,21 @@ ol {
 	width: 102%;
 }
 
-.anime__video__player .plyr--full-ui.plyr--video .plyr__control--overlaid {
+.anime__video__player .plyr--full-u .plyr__control--overlaid {
 	display: block;
 }
 
-.anime__video__player .plyr--video .plyr__control.plyr__tab-focus,
-.anime__video__player .plyr--video .plyr__control:hover,
-.anime__video__player .plyr--video .plyr__control[aria-expanded=true] {
+.anime__video__player .plyr__control.plyr__tab-focus,
+.anime__video__player .plyr__control:hover,
+.anime__video__player .plyr__control[aria-expanded=true] {
 	background: transparent;
 }
 
-.anime__video__player .plyr--video .plyr__controls {
+.anime__video__player .plyr__controls {
 	background: transparent;
 }
 
-.anime__video__player .plyr--video .plyr__progress__buffer {
+.anime__video__player .plyr__progress__buffer {
 	color: transparent;
 }
 

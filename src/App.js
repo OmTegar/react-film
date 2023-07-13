@@ -19,10 +19,10 @@ import "./components/css/bootstrap.min.css";
 import "./components/css/font-awesome.min.css";
 import "./components/css/elegant-icons.css";
 import "./components/css/plyr.css";
-import "./components/css/nice-select.css";
-import "./components/css/owl.carousel.min.css";
-import "./components/css/slicknav.min.css";
 import "./components/css/style.css";
+// import "./components/css/nice-select.css";
+// import "./components/css/owl.carousel.min.css";
+// import "./components/css/slicknav.min.css";
 
 const App = () => {
   const [isLoggedIn, setLoggedIn] = useState(false);
