@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mylogo from "../components/img/logo.png";
+import mylogo from "../components/img/logo1-navbar.png";
 
 function Navbar({ isLoggedIn, handleLogout }) {
   return (

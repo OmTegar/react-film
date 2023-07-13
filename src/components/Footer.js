@@ -1,5 +1,5 @@
 import React from "react";
-import mylogo from "../components/img/logo.png";
+import mylogo from "../components/img/logo1-Footer.png";
 
 const Footer = () => {
   const scrollToTop = () => {
