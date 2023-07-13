@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# React Film
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Film is a movie streaming web application built with React.js. It allows users to browse and watch movies online. The application provides a user-friendly interface to discover movies, view movie details, and play videos.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Clone the repository to your local machine:
 
-### `npm start`
+    ```
+    git clone https://github.com/OmTegar/react-film.git
+    ```
+2. Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    ```
+        cd react-film
+    ```
+3. Install the dependencies using npm or Yarn:
+    ```
+    npm install
+    ```
+    Or
+    ```
+    yarn install
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+1. Start the development server:
+    ```
+    npm start
+    ```
+    Or
+    ```
+    yarn start
+    ```
+2. Open your web browser and visit http://localhost:3000 to access the React Film application.
 
-### `npm test`
+## Features
+- Home Page: Displays a list of available movies.
+- Movie Details Page: Provides detailed information about a selected movie, including its title, description, and video player.
+- Video Player: Allows users to watch movies in the web application.
+- Episode Navigation: Supports navigation between different episodes of a movie (if available).
+- Login and Admin Pages: Provides authentication and an admin interface to manage movies.
+- Blog and Contact Pages: Additional pages for blog posts and contact information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- React.js: JavaScript library for building user interfaces.
+- React Router: Library for routing and navigation in a React application.
+- Plyr: Customizable HTML5 video player for modern browsers.
+- Bootstrap: Front-end framework for responsive web design.
+- Axios: Promise-based HTTP client for making API requests.
+- JSON Server: Mock API server for managing movie data.
 
-### `npm run build`
+## Contributing
+Contributions to React Film are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the [MIT License](https://github.com/OmTegar/react-film/blob/master/LICENSE).
