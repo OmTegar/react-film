@@ -63,8 +63,9 @@ function readMovieFolder(folderPath) {
         const movie = {
           id: movies.length + 1, // Generate unique ID based on array length
           title: movieTitle,
+          movies_bank:createSlug(movieTitle),
           slug: createSlug(movieTitle),
-          image_url: `img/${createSlug(movieTitle)}.png`,
+          image_url: `https://movies-bank-omtegar.sgp1.cdn.digitaloceanspaces.com/img/${createSlug(movieTitle)}.png`,
           files: movieFilesFiltered,
           genre: equipmentData.genre,
           description: equipmentData.description,

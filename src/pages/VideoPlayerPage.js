@@ -166,7 +166,9 @@ const VideoPlayerPage = () => {
                   poster={posterPath}
                 >
                   <source
-                    src={`${process.env.PUBLIC_URL}/movies/${movie.title}/${video}`}
+                    // src={`${process.env.PUBLIC_URL}/movies/${movie.title}/${video}`}
+                    // https://movies-bank-omtegar.sgp1.cdn.digitaloceanspaces.com/movies/Maou-sama-Retry!/TDFILM-MsR-Episode-1.mp4
+                    src={`https://movies-bank-omtegar.sgp1.cdn.digitaloceanspaces.com/movies/${movie.movies_bank}/${video}`}
                     type={videoType}
                   />
                   <track
