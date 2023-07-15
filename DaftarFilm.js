@@ -24,12 +24,12 @@ function readEquipmentFile(folderPath) {
 function getDefaultEquipmentData() {
   return {
     genre: ["Unknown"],
-    description: ["Unknown"],
-    studios: ["Unknown"],
-    release_date: ["Unknown"],
-    scores: ["Unknown"],
+    description: ["Description Belum Tersedia Di Database Kami, Silahkan Tunggu Update Selanjutnya. Terima Kasih :) "],
+    studios: ["TDFILM STUDIO"],
+    release_date: ["Coming Soon"],
+    scores: ["-"],
     duration: ["Unknown"],
-    quality: ["Unknown"],
+    quality: ["720p Min-Quality"],
   };
 }
 

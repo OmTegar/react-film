@@ -1,7 +1,7 @@
 import os
 import re
 
-folder_path = os.path.join(os.path.dirname(__file__), "...")
+folder_path = os.path.join(os.path.dirname(__file__), "Maou-sama Retry!")
 
 # Mendapatkan daftar file di dalam folder
 files = os.listdir(folder_path)
@@ -14,7 +14,7 @@ for i, filename in enumerate(sorted_files):
     file_extension = os.path.splitext(filename)[1]
     if file_extension.lower() == ".mp4":
         # Format nama yang diharapkan: "Episode-[urutan].mp4"
-        expected_name = f"Episode-{i+1}.mp4"
+        expected_name = f"TDFILM-MsR-Episode-{i+1}.mp4"
 
         if filename != expected_name:
             # Path lama dan baru dari file
